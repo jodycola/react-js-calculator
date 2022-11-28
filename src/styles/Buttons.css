@@ -1,0 +1,24 @@
+.buttons-grid {
+    display: grid;
+    width: fit-content;
+    height: fit-content;
+    grid-template-columns: repeat(4, 6rem);
+    grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+}
+
+.double-span {
+    grid-column: span 2;
+}
+
+button {
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background: rgba(255, 255, 255, .75);
+}
+
+button:hover,
+button:focus {
+    background: rgba(255, 255, 255, .9);
+
+}

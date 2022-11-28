@@ -1,0 +1,21 @@
+.results {
+    background-color: rgba(0, 0, 0, .75);
+    grid-column: 1/ -1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: .75rem;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.results .previous-results {
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+}
+
+.results .current-results {
+    color: rgba(255, 255, 255);
+    font-size: 1.5rem;
+}
